@@ -42,6 +42,7 @@ public class Game
 		
 		stopwatch.Stop();
 		
+		// Använd FormatMilliseconds metoden här för att skriva ut snyggare resultat!
 		System.Console.WriteLine("Du reagerade på: " + stopwatch.ElapsedMilliseconds + " millisekunder!");
 	}
 
